@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="NewViewer:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b5fe9542-1442-40c8-ab2e-84cfe5b20e77" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="NewsUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/news/util/NewsUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/news/util/web.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpiderNews.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/news/web/SpiderNews.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="128" column="39" selection-start-line="128" selection-start-column="39" selection-end-line="128" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getWebViewer2#0;class#SpiderNews#0" />
+                <element signature="e#1874#1889#0" expanded="true" />
+                <element signature="method#tempGBK#0;class#SpiderNews#0" />
+                <element signature="method#temp#0;class#SpiderNews#0" />
+                <element signature="method#temp2#0;class#SpiderNews#0" />
+                <element signature="method#temp3#0;class#SpiderNews#0" />
+                <element signature="method#getNewpaper#1;class#SpiderNews#0" />
+                <element signature="method#getZYnews#0;class#SpiderNews#0" />
+                <element signature="method#getToutiao#0;class#SpiderNews#0" />
+                <element signature="method#getMengMa#0;class#SpiderNews#0" />
+                <element signature="method#getDahebao#0;class#SpiderNews#0" />
+                <element signature="method#getZhongY#0;class#SpiderNews#0" />
+                <element signature="method#getZzwb#0;class#SpiderNews#0" />
+                <element signature="method#getWWWZzwb#0;class#SpiderNews#0" />
+                <element signature="method#getNewsDahebao#0;class#SpiderNews#0" />
+                <element signature="method#getZYnewsZzwb#0;class#SpiderNews#0" />
+                <element signature="method#getNewsZZRB#0;class#SpiderNews#0" />
+                <element signature="method#getZZRBNews#0;class#SpiderNews#0" />
+                <element signature="method#getYingxiang#0;class#SpiderNews#0" />
+                <element signature="method#getNewsYingxiang#0;class#SpiderNews#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewsBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/news/bean/NewsBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChooseNet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/news/util/ChooseNet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="117" column="48" lean-forward="true" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>嵩山少林景区荣获改革</find>
+      <find>立足国际商都、助力品牌兴城。11日，由郑州报业集团主办的“城市之光最‘中’品牌”暨“2018郑州经济年度品牌峰会”在汇艺剧院开幕。原国家外经贸部副部长、全球CEO发展大会联合主席、中国与全球化智库CCG主席龙永图发表主旨演讲。市委常委、副市长谷保中出席并致辞。郑州市新闻发言人、郑州</find>
+      <find />
+      <find>&lt;/p&gt;</find>
+      <find>立足国际商都、</find>
+      <find />
+      <find>劳动者的</find>
+      <find>少林入选改革开放四十</find>
+      <find>国际商都</find>
+      <find>　来源</find>
+      <find>“冬至疙瘩</find>
+      <find />
+      <find />
+      <find>封市审计局举办文化讲</find>
+      <find />
+      <find>宗少林·音乐大典》</find>
+      <find>塔沟武校两名学生打架</find>
+      <find>2018年12月22日晚</find>
+      <find>术家与研究会专家</find>
+      <find>网登封12月7</find>
+      <find>共场所专</find>
+      <find>2019/1</find>
+      <find>&lt;meta</find>
+      <find>月26日，登封市</find>
+      <find>来源</find>
+      <find>return</find>
+      <find>019/1/</find>
+      <find>20</find>
+      <find>2017.css&quot;</find>
+      <find>019-1-8</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/news/bean/NewsBean.java" />
+        <option value="$PROJECT_DIR$/src/com/news/util/NewsUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/news/ui/MFrame.java" />
+        <option value="$PROJECT_DIR$/src/com/news/web/SpiderNews.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/news/util/ChooseNet.java" />
+        <option value="$PROJECT_DIR$/src/com/news/util/web.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="width" value="838" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NewViewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewViewer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewViewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewViewer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewViewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewViewer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewViewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewViewer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="newviewer" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\13252\Desktop\NewViewer\src\lib" />
+      <recent name="C:\Users\13252\Desktop\NewViewer\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="NewViewer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SpiderNews" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.news.web.SpiderNews" />
+      <module name="NewViewer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.news.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.SpiderNews" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SpiderNews" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5fe9542-1442-40c8-ab2e-84cfe5b20e77" name="Default" comment="" />
+      <created>1548234966555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548234966555</updated>
+      <workItem from="1548234970854" duration="11546000" />
+      <workItem from="1548324676084" duration="13000" />
+      <workItem from="1548325396501" duration="40000" />
+      <workItem from="1548330316258" duration="1401000" />
+      <workItem from="1548337931616" duration="340000" />
+      <workItem from="1548338486281" duration="1327000" />
+      <workItem from="1548904165277" duration="21308000" />
+      <workItem from="1549000685541" duration="1181000" />
+      <workItem from="1549206705276" duration="2308000" />
+      <workItem from="1549248289999" duration="3747000" />
+      <workItem from="1549864580746" duration="84000" />
+      <workItem from="1549979222889" duration="321000" />
+      <workItem from="1549980832160" duration="60000" />
+      <workItem from="1550131911291" duration="2519000" />
+      <workItem from="1550897244347" duration="1043000" />
+      <workItem from="1551266550195" duration="8892000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="56130000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32791328" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32791328" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28184283" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32791328" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398374" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/web/SpiderNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15660">
+          <caret line="435" lean-forward="true" selection-start-line="435" selection-end-line="435" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getWebViewer2#0;class#SpiderNews#0" />
+            <element signature="e#1874#1889#0" expanded="true" />
+            <element signature="method#tempGBK#0;class#SpiderNews#0" />
+            <element signature="method#temp#0;class#SpiderNews#0" />
+            <element signature="method#temp2#0;class#SpiderNews#0" />
+            <element signature="method#temp3#0;class#SpiderNews#0" />
+            <element signature="method#getNewpaper#1;class#SpiderNews#0" />
+            <element signature="method#getZYnews#0;class#SpiderNews#0" />
+            <element signature="method#getToutiao#0;class#SpiderNews#0" />
+            <element signature="method#getMengMa#0;class#SpiderNews#0" />
+            <element signature="method#getDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZhongY#0;class#SpiderNews#0" />
+            <element signature="method#getZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getWWWZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZYnewsZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsZZRB#0;class#SpiderNews#0" />
+            <element signature="method#getZZRBNews#0;class#SpiderNews#0" />
+            <element signature="method#getYingxiang#0;class#SpiderNews#0" />
+            <element signature="method#getNewsYingxiang#0;class#SpiderNews#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/NewsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/ChooseNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/bean/NewsBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/ui/MFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7200">
+          <caret line="200" column="44" lean-forward="true" selection-start-line="200" selection-start-column="44" selection-end-line="200" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/web/SpiderNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13428">
+          <caret line="373" column="40" lean-forward="true" selection-start-line="373" selection-start-column="40" selection-end-line="373" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getWebViewer2#0;class#SpiderNews#0" />
+            <element signature="e#1874#1889#0" expanded="true" />
+            <element signature="method#tempGBK#0;class#SpiderNews#0" />
+            <element signature="method#temp#0;class#SpiderNews#0" />
+            <element signature="method#temp2#0;class#SpiderNews#0" />
+            <element signature="method#temp3#0;class#SpiderNews#0" />
+            <element signature="method#getNewpaper#1;class#SpiderNews#0" />
+            <element signature="method#getZYnews#0;class#SpiderNews#0" />
+            <element signature="method#getToutiao#0;class#SpiderNews#0" />
+            <element signature="method#getMengMa#0;class#SpiderNews#0" />
+            <element signature="method#getDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZhongY#0;class#SpiderNews#0" />
+            <element signature="method#getZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getWWWZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZYnewsZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsZZRB#0;class#SpiderNews#0" />
+            <element signature="method#getZZRBNews#0;class#SpiderNews#0" />
+            <element signature="method#getYingxiang#0;class#SpiderNews#0" />
+            <element signature="method#getNewsYingxiang#0;class#SpiderNews#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/NewsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/ChooseNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/web/SpiderNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getWebViewer2#0;class#SpiderNews#0" />
+            <element signature="e#1874#1889#0" expanded="true" />
+            <element signature="method#tempGBK#0;class#SpiderNews#0" />
+            <element signature="method#temp#0;class#SpiderNews#0" />
+            <element signature="method#temp2#0;class#SpiderNews#0" />
+            <element signature="method#temp3#0;class#SpiderNews#0" />
+            <element signature="method#getNewpaper#1;class#SpiderNews#0" />
+            <element signature="method#getZYnews#0;class#SpiderNews#0" />
+            <element signature="method#getToutiao#0;class#SpiderNews#0" />
+            <element signature="method#getMengMa#0;class#SpiderNews#0" />
+            <element signature="method#getDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZhongY#0;class#SpiderNews#0" />
+            <element signature="method#getZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getWWWZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZYnewsZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsZZRB#0;class#SpiderNews#0" />
+            <element signature="method#getZZRBNews#0;class#SpiderNews#0" />
+            <element signature="method#getYingxiang#0;class#SpiderNews#0" />
+            <element signature="method#getNewsYingxiang#0;class#SpiderNews#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/ui/MFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4500">
+          <caret line="132" column="56" lean-forward="true" selection-start-line="132" selection-start-column="56" selection-end-line="133" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/NewsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/ChooseNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/web/SpiderNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getWebViewer2#0;class#SpiderNews#0" />
+            <element signature="e#1874#1889#0" expanded="true" />
+            <element signature="method#tempGBK#0;class#SpiderNews#0" />
+            <element signature="method#temp#0;class#SpiderNews#0" />
+            <element signature="method#temp2#0;class#SpiderNews#0" />
+            <element signature="method#temp3#0;class#SpiderNews#0" />
+            <element signature="method#getNewpaper#1;class#SpiderNews#0" />
+            <element signature="method#getZYnews#0;class#SpiderNews#0" />
+            <element signature="method#getToutiao#0;class#SpiderNews#0" />
+            <element signature="method#getMengMa#0;class#SpiderNews#0" />
+            <element signature="method#getDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZhongY#0;class#SpiderNews#0" />
+            <element signature="method#getZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getWWWZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZYnewsZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsZZRB#0;class#SpiderNews#0" />
+            <element signature="method#getZZRBNews#0;class#SpiderNews#0" />
+            <element signature="method#getYingxiang#0;class#SpiderNews#0" />
+            <element signature="method#getNewsYingxiang#0;class#SpiderNews#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/ui/MFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3744">
+          <caret line="107" column="11" lean-forward="true" selection-start-line="99" selection-start-column="8" selection-end-line="107" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/NewsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/ChooseNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/ui/MFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/web/SpiderNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getWebViewer2#0;class#SpiderNews#0" />
+            <element signature="e#1874#1889#0" expanded="true" />
+            <element signature="method#tempGBK#0;class#SpiderNews#0" />
+            <element signature="method#temp#0;class#SpiderNews#0" />
+            <element signature="method#temp2#0;class#SpiderNews#0" />
+            <element signature="method#temp3#0;class#SpiderNews#0" />
+            <element signature="method#getNewpaper#1;class#SpiderNews#0" />
+            <element signature="method#getZYnews#0;class#SpiderNews#0" />
+            <element signature="method#getToutiao#0;class#SpiderNews#0" />
+            <element signature="method#getMengMa#0;class#SpiderNews#0" />
+            <element signature="method#getDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZhongY#0;class#SpiderNews#0" />
+            <element signature="method#getZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getWWWZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZYnewsZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsZZRB#0;class#SpiderNews#0" />
+            <element signature="method#getZZRBNews#0;class#SpiderNews#0" />
+            <element signature="method#getYingxiang#0;class#SpiderNews#0" />
+            <element signature="method#getNewsYingxiang#0;class#SpiderNews#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/NewsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/ChooseNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/web/SpiderNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getWebViewer2#0;class#SpiderNews#0" />
+            <element signature="e#1874#1889#0" expanded="true" />
+            <element signature="method#tempGBK#0;class#SpiderNews#0" />
+            <element signature="method#temp#0;class#SpiderNews#0" />
+            <element signature="method#temp2#0;class#SpiderNews#0" />
+            <element signature="method#temp3#0;class#SpiderNews#0" />
+            <element signature="method#getNewpaper#1;class#SpiderNews#0" />
+            <element signature="method#getZYnews#0;class#SpiderNews#0" />
+            <element signature="method#getToutiao#0;class#SpiderNews#0" />
+            <element signature="method#getMengMa#0;class#SpiderNews#0" />
+            <element signature="method#getDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZhongY#0;class#SpiderNews#0" />
+            <element signature="method#getZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getWWWZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZYnewsZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsZZRB#0;class#SpiderNews#0" />
+            <element signature="method#getZZRBNews#0;class#SpiderNews#0" />
+            <element signature="method#getYingxiang#0;class#SpiderNews#0" />
+            <element signature="method#getNewsYingxiang#0;class#SpiderNews#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/ui/MFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/NewsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/ChooseNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/ui/MFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4968">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/web/SpiderNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getWebViewer2#0;class#SpiderNews#0" />
+            <element signature="e#1874#1889#0" expanded="true" />
+            <element signature="method#tempGBK#0;class#SpiderNews#0" />
+            <element signature="method#temp#0;class#SpiderNews#0" />
+            <element signature="method#temp2#0;class#SpiderNews#0" />
+            <element signature="method#temp3#0;class#SpiderNews#0" />
+            <element signature="method#getNewpaper#1;class#SpiderNews#0" />
+            <element signature="method#getZYnews#0;class#SpiderNews#0" />
+            <element signature="method#getToutiao#0;class#SpiderNews#0" />
+            <element signature="method#getMengMa#0;class#SpiderNews#0" />
+            <element signature="method#getDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZhongY#0;class#SpiderNews#0" />
+            <element signature="method#getZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getWWWZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZYnewsZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsZZRB#0;class#SpiderNews#0" />
+            <element signature="method#getZZRBNews#0;class#SpiderNews#0" />
+            <element signature="method#getYingxiang#0;class#SpiderNews#0" />
+            <element signature="method#getNewsYingxiang#0;class#SpiderNews#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/NewsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/ChooseNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/ui/MFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4896">
+          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/web/SpiderNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getWebViewer2#0;class#SpiderNews#0" />
+            <element signature="e#1874#1889#0" expanded="true" />
+            <element signature="method#tempGBK#0;class#SpiderNews#0" />
+            <element signature="method#temp#0;class#SpiderNews#0" />
+            <element signature="method#temp2#0;class#SpiderNews#0" />
+            <element signature="method#temp3#0;class#SpiderNews#0" />
+            <element signature="method#getNewpaper#1;class#SpiderNews#0" />
+            <element signature="method#getZYnews#0;class#SpiderNews#0" />
+            <element signature="method#getToutiao#0;class#SpiderNews#0" />
+            <element signature="method#getMengMa#0;class#SpiderNews#0" />
+            <element signature="method#getDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZhongY#0;class#SpiderNews#0" />
+            <element signature="method#getZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getWWWZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZYnewsZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsZZRB#0;class#SpiderNews#0" />
+            <element signature="method#getZZRBNews#0;class#SpiderNews#0" />
+            <element signature="method#getYingxiang#0;class#SpiderNews#0" />
+            <element signature="method#getNewsYingxiang#0;class#SpiderNews#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewViewer.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/ezmorph-1.0.3.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/ezmorph-1.0.3.jar!/META-INF/maven/net.sf.ezmorph/ezmorph/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/ezmorph-1.0.3.jar!/META-INF/maven/net.sf.ezmorph/ezmorph/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/ezmorph-1.0.3.jar!/net/sf/ezmorph/array/AbstractArrayMorpher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/ezmorph-1.0.3.jar!/net/sf/ezmorph/array/BooleanArrayMorpher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/ui/MFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/NewsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/bean/NewsBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/web/SpiderNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="128" column="39" selection-start-line="128" selection-start-column="39" selection-end-line="128" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getWebViewer2#0;class#SpiderNews#0" />
+            <element signature="e#1874#1889#0" expanded="true" />
+            <element signature="method#tempGBK#0;class#SpiderNews#0" />
+            <element signature="method#temp#0;class#SpiderNews#0" />
+            <element signature="method#temp2#0;class#SpiderNews#0" />
+            <element signature="method#temp3#0;class#SpiderNews#0" />
+            <element signature="method#getNewpaper#1;class#SpiderNews#0" />
+            <element signature="method#getZYnews#0;class#SpiderNews#0" />
+            <element signature="method#getToutiao#0;class#SpiderNews#0" />
+            <element signature="method#getMengMa#0;class#SpiderNews#0" />
+            <element signature="method#getDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZhongY#0;class#SpiderNews#0" />
+            <element signature="method#getZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getWWWZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsDahebao#0;class#SpiderNews#0" />
+            <element signature="method#getZYnewsZzwb#0;class#SpiderNews#0" />
+            <element signature="method#getNewsZZRB#0;class#SpiderNews#0" />
+            <element signature="method#getZZRBNews#0;class#SpiderNews#0" />
+            <element signature="method#getYingxiang#0;class#SpiderNews#0" />
+            <element signature="method#getNewsYingxiang#0;class#SpiderNews#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/ChooseNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="117" column="48" lean-forward="true" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/news/util/web.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>NewViewer:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jquery</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>NewViewer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>activation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
