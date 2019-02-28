@@ -1,11 +1,4 @@
-import com.news.bean.NewsBean;
-import com.news.ui.MFrame;
 import com.news.util.ChooseNet;
-import com.news.web.SpiderNews;
-
-import java.io.RandomAccessFile;
-import java.util.ArrayList;
-import java.util.Date;
 
 /**
  * @author CasterWx  AntzUhl
@@ -16,7 +9,7 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
 //        new MFrame("Utils");
-        ChooseNet.chooseNet("http://www.yywsb.com/article/27299.html");
+        ChooseNet.chooseNet("http://shms.rmjtxw.com/2019/shga_0129/2183.html");
     }
 }
 
