@@ -49,6 +49,17 @@ public class SpiderNews {
         return ux;
     }
 
+    public static String getWebViewerGB2312(String u) throws Exception{
+        CloseableHttpClient closeableHttpClient = HttpClients.createDefault() ;
+        HttpGet httpPost = new HttpGet(u);
+        httpPost.setHeader("user-agent","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36");
+//        HttpPost httpPost = new HttpPost(u) ;
+        CloseableHttpResponse response=closeableHttpClient.execute(httpPost);
+        HttpEntity entity=response.getEntity();
+        String ux = EntityUtils.toString(entity,"gb2312") ;
+        return ux;
+    }
+
     public static String getWebViewer2(String u,String id) throws Exception{
         CloseableHttpClient closeableHttpClient = HttpClients.createDefault() ;
         HttpPost httpPost = new HttpPost(u);
@@ -103,6 +114,52 @@ public class SpiderNews {
                 String comment = mr.group() ;
                 comment = comment.replace(commentT,"").replace(commentE,"").replace("　　","").replace(" ","");
                 newsBean.comment = comment ;
+            }
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
+        return newsBean;
+    }
+
+    public static NewsBean tempGB2312(String url,String titMa,String titEnd,String timeMa,String timeEnd,String comethis,String commentT,String commentE){
+        NewsBean newsBean = null ;
+        try {
+            String urls  = getWebViewerGB2312(url) ;
+            System.out.println(urls);
+            String con = titMa + "(.*?)" + titEnd ;
+            Pattern ah = Pattern.compile(con);
+            newsBean = new NewsBean() ;
+            newsBean.url = url ;
+            Matcher mr = ah.matcher(urls) ;
+            if(mr.find()) {
+                String title = mr.group() ;
+                title = title.replace(titMa,"").replace(titEnd,"");
+                newsBean.title = title ;
+            }
+            con = timeMa + "(.*?)" +timeEnd;
+            ah = Pattern.compile(con);
+            mr = ah.matcher(urls) ;
+            if(mr.find()) {
+                String time = mr.group() ;
+                time = time.replace(timeMa,"").replace(timeEnd,"").replace("/","-").split(" ")[0];
+                if (time.contains("定")){
+                    time = time.split("定")[0] + "-" + time.split("定")[1].split("埖")[0] +"-"+ time.split("定")[1].split("埖")[1].split("晩")[0] ;
+                }
+                newsBean.time = time ;
+            }
+            newsBean.come = comethis ;
+            con = commentT + "(.*?)" + commentE;
+            ah = Pattern.compile(con);
+            mr = ah.matcher(urls) ;
+            while(mr.find()) {
+                String comment = mr.group() ;
+                System.out.println(comment);
+                comment = comment.replaceAll("　","");
+                comment = comment.replace(commentT,"").replace(commentE,"").replace("　　","").replace(" ","");
+                if (!comment.contains("img")&&comment.length()!=0){
+                    newsBean.comment = comment ;
+                    break;
+                }
             }
         }catch (Exception e) {
             e.printStackTrace();
@@ -183,10 +240,15 @@ public class SpiderNews {
             con = commentT + "(.*?)" + commentE;
             ah = Pattern.compile(con);
             mr = ah.matcher(urls) ;
-            if(mr.find()) {
+            while(mr.find()) {
                 String comment = mr.group() ;
+                System.out.println(comment);
+                comment = comment.replaceAll("　","");
                 comment = comment.replace(commentT,"").replace(commentE,"").replace("　　","").replace(" ","");
-                newsBean.comment = comment ;
+                if (!comment.contains("img")&&comment.length()!=0){
+                    newsBean.comment = comment ;
+                    break;
+                }
             }
         }catch (Exception e) {
             e.printStackTrace();
@@ -224,10 +286,15 @@ public class SpiderNews {
             con = commentT + "(.*?)" + commentE;
             ah = Pattern.compile(con);
             mr = ah.matcher(urls) ;
-            if(mr.find()) {
+            while(mr.find()) {
                 String comment = mr.group() ;
+                System.out.println(comment);
+                comment = comment.replaceAll("　","");
                 comment = comment.replace(commentT,"").replace(commentE,"").replace("　　","").replace(" ","");
-                newsBean.comment = comment ;
+                if (!comment.contains("img")&&comment.length()!=0){
+                    newsBean.comment = comment ;
+                    break;
+                }
             }
         }catch (Exception e) {
             e.printStackTrace();

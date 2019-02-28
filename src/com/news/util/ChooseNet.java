@@ -40,9 +40,6 @@ public class ChooseNet {
         }else if(url.contains("www.dahebao.cn")){
             // 大河客户端
             newsBean = SpiderNews.getDahebao(url);
-        }else if(url.contains("news.zynews.cn")){
-            // 中原网
-            newsBean = SpiderNews.getZhongY(url);
         }else if(url.contains("news.dahebao.cn")){
             // 大河news
             newsBean = SpiderNews.getNewsDahebao(url);
@@ -118,13 +115,59 @@ public class ChooseNet {
         }else if(url.contains("www.yywsb.com")){
             newsBean = SpiderNews.tempGBK2(url,"<meta property=\"og:title\" content=\"","\" />"," ","来源","医药卫生网"," <FONT face=宋体>","<");
             newsBean.time =  newsBean.time.replace("|","") ;
+        }else if(url.contains("news.zzedu.net.cn")){
+            newsBean = SpiderNews.temp2(url,"<p class=\"font_yahei\"><strong>","<span>","&#","郑州教育信息网","<p style=\"text-indent: 2em; text-align: left;\">","<");
+        }else if(url.contains("school.zzedu.net.cn")){
+            newsBean = SpiderNews.temp2(url,"<p class=\"font_yahei\"><strong>","<span>","&#","郑州教育信息网","<p style=\"text-indent: 2em; text-align: left;\">","<");
+        }else if(url.contains("www.zhengzhou.gov.cn")){
+            newsBean = SpiderNews.temp3(url,"<meta name=\"ArticleTitle\" content=\"","\"/>","发布时间："," ","郑州市人民政府","<span style=\"text-indent: 2em;\">","<");
+        }else if(url.contains("zz.wenming.cn")){
+            newsBean = SpiderNews.temp(url,"<h2 class=\"article-title ffyh\">","<div class=\"info\"> <i>","郑州文明网","<p align=\"justify\" style=\"overflow-x: hidden; word-break: break-all\">","<");
+        }else if(url.contains("henan.youth.cn")){
+            newsBean = SpiderNews.temp2(url,"<p class=\"pbt\">","发稿时间："," ","中国青年网","<META name=\"Description\" content='"," ");
+        }else if(url.contains("zgsc.china.com.cn")){
+            newsBean = SpiderNews.temp2(url,"<h1>","<div class=\"rqly\">"," ","中国网","<p style=\"text-indent: 2em;\">","<");
+        }else if(url.contains("zjnews.china.com.cn")){
+            newsBean = SpiderNews.temp2(url,"<div class=\"title\">","发布时间："," ","中国网","desc: '","',");
+        }else if(url.contains("home.china.com.cn")){
+            newsBean = SpiderNews.temp2(url,"<h2>","时间："," ","中国网","<meta name=\"description\" content=\"","\">");
+        }else if(url.contains("www.cqn.com.cn")){
+            newsBean = SpiderNews.temp3(url,"<title>","</title>","<date>"," ","中国质量新闻网","<p style=\"MARGIN: 0px 3px 15px; TEXT-INDENT: 30px\">","<");
+        }else if(url.contains("m.cqn.com.cn")){
+            newsBean = SpiderNews.temp3(url,"<title>","</title>","<date>"," ","中国质量新闻网","<meta name=\"description\" content=\"","\" />");
+        }else if(url.contains("www.chinanews.com")){
+            newsBean = SpiderNews.tempGB2312(url,"<input id=\"newstitle\" name=\"newstitle\" type=\"hidden\" value='","'/>","<input id=\"newsdate\" type=\"hidden\" name=\"newsdate\" value=\"","\"/>","中新网","<p>","<");
+        }else if(url.contains("www.ha.chinanews.com.cn")){
+            newsBean = SpiderNews.tempGB2312(url,"<div class=\"neiron_title\">","<","<li>","日 ","中新网","<p>","<");
+        }else if(url.contains("finance.chinanews.com")){
+            newsBean = SpiderNews.tempGB2312(url,"<input id=\"newstitle\" name=\"newstitle\" type=\"hidden\" value='","'/>","<input id=\"newsdate\" type=\"hidden\" name=\"newsdate\" value=\"","\"/>","中新网","<meta name=\"description\" content=\"","\" />");
+        }else if(url.contains("www.zyjjw.cn")){
+            newsBean = SpiderNews.tempGB2312(url,"<div class=\"wb_title\">","</div>","时间:"," ","中原经济网","<meta name=\"Description\" content=\"","\" />");
+        }else if(url.contains("jk.zynews.cn")){
+            newsBean = SpiderNews.temp2(url,"<h2 class=\"article-title ffyh\">","<div class=\"info\"> <i>"," ","中原网","<meta property=\"og:description\" content=\"","\" />");
+        }else if(url.contains("news.zynews.cn")){
+            newsBean = SpiderNews.temp2(url,"<title>","2019","   ","中原网","</strong>","<");
+            newsBean.time = "2019" +  newsBean.time  ;
+        }else if(url.contains("www.hnly.gov.cn")){
+            newsBean = SpiderNews.temp2(url,"<title>","<span style=\"margin-right:20px;\">","</span> 浏览","河南省林业局","<span style=\"font-size:19px;font-family:仿宋_GB2312\">","<");
+        }else if(url.contains("www.xingyang.org.cn")){
+            newsBean = SpiderNews.temp2(url,"<h1>","发布时间： "," ","荥阳网","<span style=\"box-sizing: border-box; font-size: 16px;\">","<");
+        }else if(url.contains("www.zzsj.gov.cn")){
+            newsBean = SpiderNews.temp3(url,"    ","</font></span>","2019-"," ","上街区政府","<p style=\"text-indent:2em;\">","<");
+            newsBean.time = "2019-" +  newsBean.time  ;
+        }else if(url.contains("zjj.zhengzhou.gov.cn")){
+            newsBean = SpiderNews.temp(url,"<h2>","时间：","郑州市质量技术监督局网站","<p style=\"text-indent: 2em; text-align: left;\">","<");
+        }else if(url.contains("www.rmjtxw.com")){
+            newsBean = SpiderNews.tempGB2312(url,"<h1>","</h1>","<div class=\"fl\">2"," ","人民交通网","<meta name=\"description\" content=\"","\">");
+            newsBean.time = "2" +  newsBean.time  ;
+        }else if(url.contains("shms.rmjtxw.com")){
+            newsBean = SpiderNews.tempGB2312(url,"<div class=\"left1_a\"><h1>","<","<span>","</span>","人民交通网","<meta name=\"description\" content=\"","\">");
         }else if(url.contains("")){
-            newsBean = SpiderNews.temp(url,"<h1 id=\"4g_title\">","<span class=\"subtime\" id=\"pubtime_baidu\">","大河网","<p>","");
-        }else if(url.contains("")){
-            newsBean = SpiderNews.temp(url,"<h1 id=\"4g_title\">","<span class=\"subtime\" id=\"pubtime_baidu\">","大河网","<p>","");
+            newsBean = SpiderNews.temp(url,"<h1 id=\"4g_title\">","<span class=\"subtime\" id=\"pubtime_baidu\">","中原网","<p>","");
         }
 
 /*
+
 * */
         System.out.println(newsBean.toString());
         return newsBean ;
