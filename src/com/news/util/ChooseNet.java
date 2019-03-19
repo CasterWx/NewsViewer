@@ -11,6 +11,7 @@ import com.news.web.SpiderNews;
  */
 public class ChooseNet {
     public static NewsBean chooseNet(String url){
+        url = url.trim() ;
         NewsBean newsBean = new NewsBean() ;
         // 域名选择
         if (url.contains("wap.zzwb.cn")){
@@ -83,7 +84,7 @@ public class ChooseNet {
         }else if(url.contains("www.henan100.com")){
             newsBean = SpiderNews.temp(url,"<h1><a href=\"","发布时间：","河南一百度","<meta name=\"Description\" content=\"","\"");
             newsBean.title = newsBean.title.split(">")[1] ;
-        }else if(url.contains("www.jinbw.com.cn")){
+        }else if(url.contains("www.jinbw.com.cn/a")){
             newsBean = SpiderNews.temp(url,"<h1>","<span>","今报网","<p>","<");
         }else if(url.contains("xinwen.mlzgw.cn")){
             newsBean = SpiderNews.temp(url,"<h1 itemprop=\"headline\" id=\"artical_topic\">","<span class=\"ss01\">","魅力中国网","<p>","</p");
@@ -112,7 +113,7 @@ public class ChooseNet {
             newsBean = SpiderNews.tempGBK(url,"<h2>","<span>","</span><","央广网","</strong>","<");
         }else if(url.contains("china.cnr.cn")){
             newsBean = SpiderNews.tempGBK(url,"<h2>","<span>","</span><","央广网","<div class=TRS_Editor><p>","<");
-        }else if(url.contains("www.yywsb.com")){
+        }else if(url.contains("www.yywsb.com/art")){
             newsBean = SpiderNews.tempGBK2(url,"<meta property=\"og:title\" content=\"","\" />"," ","来源","医药卫生网"," <FONT face=宋体>","<");
             newsBean.time =  newsBean.time.replace("|","") ;
         }else if(url.contains("news.zzedu.net.cn")){
@@ -146,8 +147,19 @@ public class ChooseNet {
         }else if(url.contains("jk.zynews.cn")){
             newsBean = SpiderNews.temp2(url,"<h2 class=\"article-title ffyh\">","<div class=\"info\"> <i>"," ","中原网","<meta property=\"og:description\" content=\"","\" />");
         }else if(url.contains("news.zynews.cn")){
-            newsBean = SpiderNews.temp2(url,"<title>","2019","   ","中原网","</strong>","<");
-            newsBean.time = "2019" +  newsBean.time  ;
+            newsBean = SpiderNews.temp2(url,"<h1 class=\"article-title ffyh\">","<i id=\"pubtime_baidu\">"," ","中原网","</strong>","<");
+//            http://news.zynews.cn/2017sazz/2017syj/xsq/20190319/2074.html
+            if (url.contains("2017sazz/2017syj")){
+                String time = newsBean.url.split("/")[6] ;
+                System.out.println(time);
+                newsBean.time = time.charAt(0) + ""+ time.charAt(1)+ "" +time.charAt(2) + ""+ time.charAt(3) + "-" +time.charAt(4) +time.charAt(5) + "-" +time.charAt(6) +time.charAt(7) ;
+            }else if (url.contains("2017sazz")){
+                String time = newsBean.url.split("/")[5] ;
+                System.out.println(time);
+                newsBean.time = time.charAt(0) + ""+ time.charAt(1)+ "" +time.charAt(2) + ""+ time.charAt(3) + "-" +time.charAt(4) +time.charAt(5) + "-" +time.charAt(6) +time.charAt(7) ;
+            }else {
+//                newsBean.time = newsBean.url.split("/")[3] + "-" + newsBean.url.split("/")[4] ;
+            }
         }else if(url.contains("www.hnly.gov.cn")){
             newsBean = SpiderNews.temp2(url,"<title>","<span style=\"margin-right:20px;\">","</span> 浏览","河南省林业局","<span style=\"font-size:19px;font-family:仿宋_GB2312\">","<");
         }else if(url.contains("www.xingyang.org.cn")){
@@ -162,10 +174,104 @@ public class ChooseNet {
             newsBean.time = "2" +  newsBean.time  ;
         }else if(url.contains("shms.rmjtxw.com")){
             newsBean = SpiderNews.tempGB2312(url,"<div class=\"left1_a\"><h1>","<","<span>","</span>","人民交通网","<meta name=\"description\" content=\"","\">");
-        }else if(url.contains("")){
-            newsBean = SpiderNews.temp(url,"<h1 id=\"4g_title\">","<span class=\"subtime\" id=\"pubtime_baidu\">","中原网","<p>","");
-        }
+        }else if(url.contains("mbd.baidu.com")){
+            newsBean = SpiderNews.temp5(url,"<h1 class=\"titleSize\">","<","<div class=\"infoSet\"><span>","</span>","百家号","class=\"authorName\">","<span class=\"bjh-p\">","<");
+        }else if(url.contains("baijiahao.baidu.com")) {
+            newsBean = SpiderNews.temp5(url,"<title>","<","<meta itemprop=\"dateUpdate\" content=\""," ","百家号","<p class=\"author-name\">","<span class=\"bjh-p\">","<");
+        }else if(url.contains("m.sohu.com")) {
+            newsBean = SpiderNews.tempGB2312_t(url, "title: '", "',","<meta itemprop=\"dateUpdate\" content=\"", "\" />","搜狐号","<header class=\"name\">", "<meta name=\"description\" content=\"", "\" />");
+        }else if(url.contains("www.sohu.com")) {
+            newsBean = SpiderNews.tempGB2312_t(url, "<meta property=\"og:title\" content=\"", "\"/>","<meta property=\"og:release_date\" content=\"", " ","搜狐号","来源:<a href=\"\" target=\"_blank\">", "<meta name=\"description\" content=\"", "\" />");
+        }else if(url.contains("mp.weixin.qq.com")) {
+            newsBean = SpiderNews.tempGB2312_t(url, "var msg_title = \"", "\";","var publish_time = \"", "\"","微信公众号","<strong class=\"profile_nickname\">", "var msg_desc = \"", "\";");
+        }else if(url.contains("c.m.163.com")) {
+            newsBean = SpiderNews.tempGB2312_t(url, "<h1 class=\"g-title\">", "<","<span>", "</span>","网易号","<b>", "<p>", "</p>");
+        }else if(url.contains("dy.163.com")) {
+            newsBean = SpiderNews.tempGB2312_t(url, "<title>", "_","data-ptime=\"", " ","网易号","<h4>", "<p>", "</p>");
+        }else if(url.contains("newpaper.dahe.cn/dhb/")){
+            newsBean = SpiderNews.temp5(url, "<title>","<","data-ptime=\"","<", "大河报","<td width=\"160\" align=left>", "</p><p>&nbsp;","<");
+            newsBean.title = newsBean.title.split("--")[0];
+            newsBean.come = newsBean.come.replace("《","").replace("》","").replace("：","");
+            newsBean.time = newsBean.url.split("/")[5] + "-" + newsBean.url.split("/")[6] ;
+        }else if(url.contains("newpaper.dahe.cn/dhjkb/")) {
+            newsBean = SpiderNews.temp5(url, "<title>","<","data-ptime=\"","<", "大河健康报","<td width=\"160\" align=left>", "</p><p>&nbsp;","<");
+            newsBean.title = newsBean.title.split("--")[0];
+            newsBean.come = newsBean.come.replace("《","").replace("》","").replace("：","");
+            newsBean.time = newsBean.url.split("/")[5] + "-" + newsBean.url.split("/")[6] ;
+        }else if(url.contains("www.jinbw.com.cn/dzb")) {
+            newsBean = SpiderNews.temp5(url, "<td class=\"font01\" align=center style=\"color: #0205FF;\">","<","<strong>"," 星期", "东方今报","<td width=\"145\" align=left>", "<p><p&nbsp;xmlns=\"\">","<");
+            newsBean.come = newsBean.come.replace("《","").replace("》","").replace("：","");
+        }else if(url.contains("dzb.jinbw.com.cn")) {
+            newsBean = SpiderNews.temp5(url, "<td class=\"font01\" align=center style=\"color: #0205FF;\">","<","<strong>"," 星期", "东方今报","<td width=\"145\" align=left>", "<p><p&nbsp;xmlns=\"\">","<");
+            newsBean.come = newsBean.come.replace("《","").replace("》","").replace("：","");
+        }else if(url.contains("newpaper.dahe.cn/jrab/")) {
+            newsBean = SpiderNews.temp5(url, "<title>","--","<strong>","<", "河南法制报第","<founder-pagenum>", "<!--enpcontent--><P><p>","<");
+            newsBean.come = newsBean.come.replace("《","").replace("》","") + "版";
+            newsBean.time = newsBean.url.split("/")[5] + "-" + newsBean.url.split("/")[6] ;
+        }else if(url.contains("www.hngrrb.cn")) {
+            newsBean = SpiderNews.temp5(url, "<founder-title>","<","<strong>","<", "河南工人日报第","<founder-pagenum>", "<founder-content><P>","<");
+            newsBean.come = newsBean.come.replace("《","").replace("》","") + "版";
+            newsBean.time = newsBean.url.split("/")[5] + "-" + newsBean.url.split("/")[6] ;
+        }else if(url.contains("newpaper.dahe.cn/hnrb/")) {
+            newsBean = SpiderNews.temp5(url, "<title>","--","<strong>","<", "河南日报第","<founder-pagenum>", "<p>&nbsp;&nbsp;&nbsp;&nbsp;","<");
+            newsBean.come = newsBean.come.replace("《","").replace("》","") + "版";
+            newsBean.time = newsBean.url.split("/")[5] + "-" + newsBean.url.split("/")[6] ;
+        }else if(url.contains("newpaper.dahe.cn/hnrbncb/")) {
+            newsBean = SpiderNews.temp5(url, "<title>","--","<strong>","<", "河南日报农村报第","<founder-pagenum>", "<p>&nbsp;&nbsp;&nbsp;&nbsp;","<");
+            newsBean.come = newsBean.come.replace("《","").replace("》","") + "版";
+            newsBean.time = newsBean.url.split("/")[5] + "-" + newsBean.url.split("/")[6] ;
+        }else if(url.contains("newpaper.dahe.cn/hnsb/")) {
+            newsBean = SpiderNews.temp5(url, "<title>","--","<strong>","<", "河南商报第","<founder-pagenum>", "<!--enpcontent--><P>","<");
+            newsBean.come = newsBean.come.replace("《","").replace("》","") + "版";
+            newsBean.time = newsBean.url.split("/")[5] + "-" + newsBean.url.split("/")[6] ;
+        }else if(url.contains("www.yywsb.com")) {
+            newsBean = SpiderNews.temp6(url, "<TD align=left valign=\"top\" class=default ><P>","<","<strong>","<", "医药卫生报","          ", "<P>&nbsp;","<");
+            newsBean.time = newsBean.url.split("/")[4] + "-" + newsBean.url.split("/")[5] ;
+        }else if(url.contains("newpaper.dahe.cn/jrxf/")) {
+            newsBean = SpiderNews.temp5(url, "<title>","--","<strong>","<", "今日消费报第","<founder-pagenum>", "<!--enpcontent--><P>","</");
+            if (newsBean.comment!=null){
+                newsBean.comment = newsBean.comment.replace("<P>","").replace("<p>","").replace("</P>","").replace("</p>","");
+            }
+            newsBean.come = newsBean.come.replace("《","").replace("》","") + "版";
+            newsBean.time = newsBean.url.split("/")[5] + "-" + newsBean.url.split("/")[6] ;
+        }else if(url.contains("epaper.hnfzb.com:8080")) {
+            String timess = url.split("/")[6] + "-" + url.split("/")[7]+ "-" + url.split("/")[8] ;
+            newsBean = SpiderNews.temp6(url, "<h2 class=\"content_title\">","<","<strong>","<", "河南法制报",timess +" ", "<div id=\"pgcontent\" class=\"nfont\">","</");
+            if (newsBean.comment!=null){
+                newsBean.comment = newsBean.comment.replace("<P>","").replace("<p>","").replace("</P>","").replace("</p>","");
+            }
+            newsBean.time = newsBean.url.split("/")[6] + "-" + newsBean.url.split("/")[7]+ "-" + newsBean.url.split("/")[8] ;
+        }else if(url.contains("www.hndt.com")) {
+            newsBean = SpiderNews.temp3(url, "<title>","<","<span class=\"tag\">"," ", "河南广播客户端", "<p><span style=\"font-size: 18px;\">","<");
+        }else if(url.contains("www.henandaily.cn")) {
+            newsBean = SpiderNews.temp3(url, "<title>","-","<div class=\"content-time\">"," ", "河南日报客户端", "<meta name=\"description\" content=\"","\" />");
+            newsBean.time = newsBean.time.replace(".","-");
+        }else if(url.contains("huimian.app.china.com")) {
+            newsBean = SpiderNews.temp3(url, "<title>","<","\t\t201"," ", "郑州电台客户端", "<p style=\"text-align: justify;\">","<");
+            if (newsBean.comment==null){
+                newsBean = SpiderNews.temp3(url, "<title>","<","\t\t201"," ", "郑州电台客户端", "<p style=\"text-indent: 2em;\">","<");
+            }
+            newsBean.time = "201" + newsBean.time;
+        }else if(url.contains("www.shangbw.com")) {
+            newsBean = SpiderNews.temp3(url, "<title>","_","发布日期：","&", "河南商报客户端", "<meta name=\"description\" content=\"","\"/>");
+        }else if(url.contains("khd.shangbw.com")) {
+            newsBean = SpiderNews.temp3(url, "  ","</h1>","201"," ", "河南商报客户端", "　　","<br />");
+            newsBean.time = "201" + newsBean.time;
+        }else if(url.contains("share.zztv.tv")) {
+            newsBean = SpiderNews.temp3(url, "<title>","<","<span id=\"ptime\" class=\"date\">","<", "郑州电视台客户端", "ext-align: left; margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;\">","</");
+        }else if(url.contains("liuyan.people.com.cn")) {
+            newsBean = SpiderNews.temp3(url, "<h2><b>","\n","&nbsp;&nbsp;&nbsp;&nbsp;","</span>", "人民网留言板", "<p class=\"zoom\">","</");
+        }else if(url.contains("xtq.zynews.cn")) {
+            newsBean = SpiderNews.temp3(url, "<meta name=\"keywords\" content=\"","\" />","发表于 "," ", "心通桥", "&nbsp; &nbsp;&nbsp; &nbsp;","<");
+        }else if(url.contains("club.kdnet.net")) {
+            newsBean = SpiderNews.temp3(url, "<div class=\"posts-title\">","</div>","</span> 201"," ", "凯迪社区", "&nbsp;&nbsp;&nbsp;&nbsp;","<");
+            newsBean.time = ("201" + newsBean.time).replace("/","-");
+        }else if(url.contains("bbs.tianya.cn")) {
+            newsBean = SpiderNews.temp3(url, "<span class=\"s_title\"><span style=\"font-weight:400;\">","<","js_replytime=\""," ", "天涯论坛", "<meta name=\"description\" itemprop=\"description\" content=\"","\" />");
+        }else if(url.contains("edu.zynews.cn")){
+            newsBean = SpiderNews.tempGB2312(url, "<h1 class=\"article-title ffyh\">","<","<div class=\"info\"><i>","</i><i>来源", "中原网", "<p><p>","<");
 
+        }
 /*
 
 * */

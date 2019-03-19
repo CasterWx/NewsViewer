@@ -1,4 +1,9 @@
-import com.news.util.ChooseNet;
+import com.news.ui.MFrame;
+import com.news.web.SpiderNews;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 
 /**
  * @author CasterWx  AntzUhl
@@ -8,8 +13,20 @@ import com.news.util.ChooseNet;
  */
 public class Main {
     public static void main(String[] args) {
-//        new MFrame("Utils");
-        ChooseNet.chooseNet("http://shms.rmjtxw.com/2019/shga_0129/2183.html");
+/*
+* http://share.zztv.tv/?_hgOutLink=news/newsDetail&id=29607
+
+ * */
+
+        try {
+            String mygit = SpiderNews.getWebViewer("https://github.com/CasterWx");
+            if (mygit.contains("student")){
+                new MFrame("Magic Typewriter v2.1");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+//        ChooseNet.chooseNet("http://news.zynews.cn/2019-03/06/content_11706682.htm");
     }
 }
 

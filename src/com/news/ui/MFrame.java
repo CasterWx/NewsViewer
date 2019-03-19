@@ -4,6 +4,7 @@ import com.news.bean.NewsBean;
 import com.news.util.ChooseNet;
 import com.news.util.NewsUtil;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.datatransfer.Clipboard;
@@ -11,7 +12,10 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.datatransfer.Transferable;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * @author CasterWx  AntzUhl
@@ -34,13 +38,22 @@ public class MFrame extends JFrame {
         this.setResizable(false);
         initButton();
         this.setBounds(400,200,500,700);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
-        this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }
 
     public void initButton(){
+
+        BufferedImage image = null ;
+        try{
+            image = ImageIO.read(this.getClass().getResource("C:\\Users\\13252\\Desktop\\logo.ico"));
+        }catch (Exception e){
+
+        }
+        this.setIconImage(image);
+
         // out lable
-        label_out.setText("URL:");
+        label_out.setText("URL");
         label_out.setBounds(20,20,30,50);
         label_out.setFont(new Font("宋体", Font.PLAIN, 13));
         this.add(label_out);
@@ -60,11 +73,11 @@ public class MFrame extends JFrame {
         label_time.setBounds(20,290,30,50);
         label_time.setFont(new Font("宋体", Font.PLAIN, 13));
         this.add(label_time);
-        label_gs.setText("格式选择");
+        label_gs.setText("格式");
         label_gs.setBounds(20,340,30,50);
         label_gs.setFont(new Font("宋体", Font.PLAIN, 13));
         this.add(label_gs);
-        label_get.setText("文本导出");
+        label_get.setText("文本");
         label_get.setBounds(20,390,30,50);
         label_get.setFont(new Font("宋体", Font.PLAIN, 13));
         this.add(label_get);
@@ -194,9 +207,19 @@ public class MFrame extends JFrame {
                 }else {
                     try {
                         newsBean = ChooseNet.chooseNet(outFileName) ;
-                        jTextCome.setText(newsBean.come);
-                        jTextDesc.setText(newsBean.comment.replace(" ","").replace(" ","").replace("　　",""));
-                        jTextTitle.setText(newsBean.title);
+                        if (newsBean.come!=null){
+                            jTextCome.setText(newsBean.come);
+                        }
+                        if (newsBean.comment!=null){
+                            jTextDesc.setText(newsBean.comment.replace(" ","").replace(" ","").replace("　　","").replace("&nbsp;"," ").replace("&ldquo;","\"").replace("&rdquo;",""));
+                        }
+                        if (newsBean.title!=null){
+                            jTextTitle.setText(newsBean.title);
+                        }
+                        if(newsBean.time==null || newsBean.time.equals("null") || newsBean.time.equals("Null")|| newsBean.time.equals("NULL")){
+                            SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
+                            newsBean.time = df.format(new Date());
+                        }
                         jTextTime.setText(newsBean.time);
                     } catch (Exception e1) {
                         System.out.println(e1);
@@ -226,7 +249,7 @@ public class MFrame extends JFrame {
         });
         this.add(cls);
         Button urlopen = new Button("打开");
-        urlopen.setBounds(380,70,90,30);
+        urlopen.setBounds(380,80,90,30);
         urlopen.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
